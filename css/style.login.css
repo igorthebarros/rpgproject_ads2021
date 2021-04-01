@@ -1,9 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500;600&display=swap");
 
-/* body {
-  background-image: url(zelda-bg-login4.jpg);
-  
-} */
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500;600&display=swap");
 
 nav {
   padding: 15px 15px;
@@ -39,62 +35,14 @@ nav ul li a:hover{
   color: #006458;
 }
 
-
-.image {
-  /** Imagem inicial **/
-  width: 100%;
-}
-
-.escudo {
-  margin-top: 30px;
-  text-align: center;
-}
-
-.title-rpg {
-  font-family: "Bitter", serif;
-  font-weight: 700;
-  text-align: center;
-  font-size: 4em;
-  color: #189218;
-  margin: 0 0%;
-  padding: 20px;
-}
-
-.informacao-rpg {
-  padding: 15px;
-}
-
-.descricao-rpg {
-  font-family: "Bitter", serif;
-  font-weight: 400;
-  color: #189218;
-  font-size: 1.1em;
-  text-align: center;
-  margin: 20px;
-  line-height: 1.5em;
-}
-
-.footer {
-  /**Rodape**/
-  color: #ffffff;
-  text-align: center;
-  background: #189218;
-  padding: 20px;
-  font-family: "Bitter", serif;
-  font-weight: 300;
-}
-
 .login-page{
-  background-image: url(zelda-bg-login4.jpg);
+  background-image: url(../imagens/zelda.bg.login.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .login {
   height: 100vh;
-  /*background: url('back1.png');
-  background-repeat: no-repeat;
-  background-size: 100%;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +51,8 @@ nav ul li a:hover{
 .login__container {
   min-height: 400px;
   width: 300px;
-  background-color: #189218;
+  /*background-color: #189218;*/
+  border: solid 1px #ffffff;
   box-sizing: border-box;
   padding: 32px;
   border-radius: 8px;
@@ -161,11 +110,14 @@ nav ul li a:hover{
   text-align: center;
 }
 
-footer {
+.footer {
+  /**Rodape**/
   color: #ffffff;
-  background: #193c38;
-  padding: 10px;
   text-align: center;
+  background: #189218;
+  padding: 20px;
+  font-family: "Bitter", serif;
+  font-weight: 300;
 }
 
 @media(max-width: 400px){

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style-personagem.css">
+        <link rel="stylesheet" href="../css/reset.css">
+        <title>Cadastro de Personagem</title>
+    </head>
+    <body>
+        <header>
+			<nav>
+				<a href="index.html"><img src="../imagens/logo.png" alt="Logo"></a>
+				<ul class="menu">
+					<li class="menu-lista"><a href="index.html">Home</a></li>
+					<li class="menu-lista"><a href="personagem.html">Personagens</a></li>
+					<li class="menu-lista"><a href="login.html">Login</a></li>
+				</ul>				
+			</nav>
+	 	</header>
+         <main>
+            <h1>Cadastre seu personagem</h1>
+
+            <div class="flex-container">
+                <div>
+                    <h2>Características</h2>
+                    <section class="caracteristicas">
+                        <form class="personagem_form">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome"><br>
+                            
+                            <label for="radio-masculino">
+                            <input type="radio" name="genero" value="masculino" id="radio-masculino" checked>Masculino</label>
+                            <label for="radio-feminino">
+                            <input type="radio" name="genero" value="feminino" id="radio-feminino" checked>Feminino</label><br>
+
+                            <label for="level">Level:</label>
+                            <input type="text" id="level"><br>
+                            <label for="idade">Idade:</label>
+                            <input type="text" id="idade"><br>
+                            <label for="altura">Altura:</label>
+                            <input type="text" id="altura"><br>
+                            <label for="peso">Peso:</label>
+                            <input type="text" id="peso"><br>
+                        </form>
+                    </section>
+                </div>
+                <div>
+                    <section class="raca">
+                        <img class="raca_image" src="">
+                        <h3>Raça: Hylian</h3>
+                        <span>
+                            Os Hylians, também conhecidos como o povo Hylia, são criaturas humanóides que adoram a deusa Hylia, 
+                            da qual seu nome deriva e por quem foram criados. Os Hylians são a raça original de Hyrule.
+                        </span>
+                    </section>
+                </div>
+                <div>
+                    <section class="habilidades">
+                        <h2><strong>Habilidades</strong></h2>
+                        <form>
+                            <label for="forca">Força</label><br>
+                            <input type="range" id="forca" min="0" max="100"><br>
+                            <label for="stamina">Stamina</label><br>
+                            <input type="range" id="stamina" min="0" max="100"><br>
+                            <label for="destreza">Destreza</label><br>
+                            <input type="range" id="destreza" min="0" max="100"><br>
+                            <label for="inteligencia">Inteligência</label><br>
+                            <input type="range" id="inteligencia" min="0" max="100"><br>
+                            <label for="magia">Magia</label><br>
+                            <input type="range" id="magia" min="0" max="100"><br>
+                            <label for="carisma">Carisma</label><br>
+                            <input type="range" id="carisma" min="0" max="100"><br>
+                        </form>
+                    </section>
+                <div>
+              </div>
+        </main>
+        <footer class="footer">
+    		Copyright &copy; 2021 | My RPG | Criado por ...
+    	</footer>
+    </body>
+</html>

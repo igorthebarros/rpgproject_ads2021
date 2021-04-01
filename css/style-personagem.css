@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500;600&display=swap");
+
+body {
+  background-image: url("../imagens/image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+}
+
+nav {
+  padding: 15px 15px;
+  font-family: "Bitter", serif;
+  background: #189218;
+  color: #ffffff;
+  height: 80px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-lista {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  color: #006458;
+}
+
+/**Corpo**/
+h1 {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.personagem_page {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login__container {
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  min-height: 400px;
+  width: 300px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ffffff;
+  /*border:solid 1px #189218;*/
+  margin: auto;
+}
+
+.login__title {
+  margin-bottom: 32px;
+  color: #ffffff;
+  font-family: "Bitter", serif;
+  text-align: center;
+}
+
+.cad__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carac__input {
+  font-family: "Bitter", serif;
+  margin-bottom: 10px;
+  height: 28px;
+  width: 100%;
+  box-sizing: border-box;
+  border: unset;
+  outline: none;
+  border-radius: 4px;
+}
+
+.img__personagem {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.carac__raca {
+  font-size: 12px;
+  text-align: center;
+}
+
+.caract__input {
+  font-family: "Bitter", serif;
+  margin-bottom: 3px;
+  height: 28px;
+  width: 100%;
+  box-sizing: border-box;
+  border: unset;
+  outline: none;
+  border-radius: 4px;
+}
+
+.cad__submit {
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  font-family: bitter;
+  font-weight: 500;
+  height: 48px;
+  width: 150px;
+  outline: none;
+  /*background-color: #ffffff;
+  color:#189218;*/
+  background-color: #189218;
+  color: #ffffff;
+  background-size: 200%;
+  font-size: 18px;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/**Rodape**/
+.footer {
+  color: #ffffff;
+  text-align: center;
+  background: #189218;
+  padding: 20px;
+  font-family: "Bitter", serif;
+  font-weight: 300;
+}
