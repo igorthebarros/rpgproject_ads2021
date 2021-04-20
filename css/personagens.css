@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500;600&display=swap");
 
+body {
+  background-color: #CFCFCF;
+  background-position: relative;
+  background-size: 100%;
+  width: 100%;
+}
+
 nav {
   padding: 15px 15px;
   font-family: "Bitter", serif;
@@ -30,52 +37,65 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #479aaa;
+  color: #006458;
 }
 
-.image {
-  /** Imagem inicial **/
-  width: 100%;
-  background-color: #356B76;
-}
-
-.escudo {
-  margin-top: 30px;
+/**Corpo**/
+h1 {
+  color: #ffffff;
   text-align: center;
+  padding: 10px;
 }
 
-.title-rpg {
-  font-family: "Bitter", serif;
-  font-weight: 700;
-  text-align: center;
-  font-size: 4em;
-  color: #356B76;
-  margin: 0 0%;
-  padding: 20px;
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.informacao-rpg {
+.card-personagem {
+  margin: 15px;
+  max-width: 250px;
+  max-height: 450px;
+  background: transparent;
+  color: #ffffff;
+  box-shadow: 1px 1px 2px 1px #356B76;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-titulo {
+  font-size: 16px;
+  font-weight: 500;
   padding: 15px;
-}
-
-.descricao-rpg {
-  font-family: "Bitter", serif;
-  font-weight: 400;
-  color: #356B76;
-  font-size: 1.1em;
   text-align: center;
-  margin: 20px;
-  line-height: 1.5em;
+  font-weight: bold;
 }
 
+.card-conteudo {
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.card-dados {
+  font-size: 14px;
+  display: block;
+  color:#006458;
+  font-weight: bold;
+}
+
+/**Rodape**/
 .footer {
-  /**Rodape**/
   color: #ffffff;
   text-align: center;
   background: #356B76;
   padding: 20px;
   font-family: "Bitter", serif;
   font-weight: 300;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
 @media (max-width: 400px) {
