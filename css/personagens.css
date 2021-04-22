@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500;600&display=swap");
 
 body {
-  background-color: #CFCFCF;
+  background-color: #cfcfcf;
   background-position: relative;
   background-size: 100%;
   width: 100%;
@@ -10,7 +10,7 @@ body {
 nav {
   padding: 15px 15px;
   font-family: "Bitter", serif;
-  background: #356B76;
+  background: #356b76;
   color: #ffffff;
   height: 80px;
   display: flex;
@@ -59,7 +59,7 @@ section {
   max-height: 450px;
   background: transparent;
   color: #ffffff;
-  box-shadow: 1px 1px 2px 1px #356B76;
+  box-shadow: 1px 1px 2px 1px #356b76;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -81,27 +81,45 @@ section {
 .card-dados {
   font-size: 14px;
   display: block;
-  color:#006458;
+  color: #006458;
   font-weight: bold;
+}
+.card__alterar {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 0 10px 10px;
+  font-family: bitter;
+  font-weight: 500;
+  height: 20px;
+  width: 60px;
+  outline: none;
+  background-color: #356b76;
+  color: #ffffff;
+  font-size: 12px;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /**Rodape**/
 .footer {
   color: #ffffff;
   text-align: center;
-  background: #356B76;
+  background: #356b76;
   padding: 20px;
   font-family: "Bitter", serif;
   font-weight: 300;
   bottom: 0;
-  position: absolute;
   width: 100%;
 }
 
 @media (max-width: 400px) {
   nav {
     font-family: "Bitter", serif;
-    background: #356B76;
+    background: #356b76;
     color: #ffffff;
     padding: 10px 10px;
     height: 75px;
