@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\static",
+    "\\static\\images\\characters",
+    "\\static\\images\\icons",
+    "\\views",
+    "\\views\\layout"
   ],
+  "SelectedNode": "\\views\\layout\\template.ejs",
   "PreviewInSolutionExplorer": false
 }

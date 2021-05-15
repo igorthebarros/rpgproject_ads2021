@@ -1,0 +1,32 @@
+const express = require("express");
+const path = require("path");
+const port = 3001;
+const app = express();
+
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "./views"));
+
+app.use(express.static(path.join(__dirname, "./static")));
+
+let aboutContent = {
+    logo: "../static/images/icons/escudo.png",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repudiandae excepturi provident maxime, accusantium distinctio doloremque obcaecati debitis laborum explicabo dolores atque voluptates eligendi sit, id aut saepe temporibus? Dicta"
+}
+
+app.get("/",(req, res) => {
+    res.render("layout/template", { about: aboutContent, content: "index" });
+});
+
+app.get("/",(req, res) => {
+    res.sendFile(path.join(__dirname, "./static/html/cadastro.html"));
+});
+
+const dataCharacters = require("../rpgproject_ads2021/data/characters.json");
+
+app.get("/characters", (req, res) => {
+    res.render("characters", {charactersRegistered: dataCharacters});
+});
+
+app.listen(port, () => {
+    console.log(`Servidor ON (${port})`);
+});
