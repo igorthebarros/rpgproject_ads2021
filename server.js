@@ -11,6 +11,7 @@ app.use(express.static(path.join(__dirname, "./data")));
 
 
 let aboutContent = {
+    background: "/images/background/background.jpg",
     logo: "/images/icons/escudo.png",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repudiandae excepturi provident maxime, accusantium distinctio doloremque obcaecati debitis laborum explicabo dolores atque voluptates eligendi sit, id aut saepe temporibus? Dicta Rerum repudiandae excepturi provident maxime, accusantium distinctio doloremque obcaecati debitis laborum explicabo dolores atque voluptates."
 }
