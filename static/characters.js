@@ -14,7 +14,7 @@ export const Characters = [
         intelligence: 50,
         magic: 50,
         charisma: 50,
-        image: "../rpgproject/static/images/link.png"
+        image: "link.png"
     },
     {
         id: 2,
@@ -31,7 +31,7 @@ export const Characters = [
         intelligence: 70,
         magic: 40,
         charisma: 65,
-        image: "../rpgproject/static/images/gerudo.png"
+        image: "gerudo.png"
     },
     {
         id: 3,
@@ -48,6 +48,6 @@ export const Characters = [
         intelligence: 80,
         magic: 60,
         charisma: 40,
-        image: "../rpgproject/static/images/rito.png"
+        image: "rito.png"
     }
 ]
