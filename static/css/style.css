@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500;600&display=swap");
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  background-color: #cfcfcf;
+}
+
 nav {
   padding: 15px 15px;
   font-family: "Bitter", serif;
