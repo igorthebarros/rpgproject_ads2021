@@ -33,6 +33,7 @@ export const Characters = [
         charisma: 65,
         image: "gerudo.png"
     },
+
     {
         id: 3,
         name: "Ravali",
@@ -50,4 +51,5 @@ export const Characters = [
         charisma: 40,
         image: "rito.png"
     }
+    
 ]

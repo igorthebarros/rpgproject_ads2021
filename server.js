@@ -28,6 +28,10 @@ app.get("/characters", (req, res) => {
     res.render("layout/template", {charactersRegistered: dataCharacters, content: "characters"});
 });
 
+app.get("editRegister", (req, res) => {
+    res.sendFile(path.join(__dirname, "./static/html/editRegister.html"))
+});
+
 app.listen(port, () => {
     console.log(`Servidor ON (${port})`);
 });
