@@ -1,0 +1,26 @@
+{
+  "name": "server-web",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorthebarros/rpgproject_ads2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorthebarros/rpgproject_ads2021/issues"
+  },
+  "homepage": "https://github.com/igorthebarros/rpgproject_ads2021#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "json-server": "^0.16.3",
+    "nodemon": "^2.0.7",
+    "normalize.css": "^8.0.1"
+  }
+}
