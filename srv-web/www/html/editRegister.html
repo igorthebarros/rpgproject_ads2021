@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="www/css/editarcadastro.css">
+        <title>Edição de Personagem</title>
+    </head>
+    <body>
+        <header>
+			<nav>
+				<a href="index.html"><img src="../img/logo.png" alt="Logo"></a>			
+			</nav>
+	 	</header>
+
+        <div>
+             <h1>Editar personagem</h1>
+        </div>
+
+            <section>		 
+                <div class="card-personagem">
+                    <h2 class="login__title">Características</h2>
+                    <form>
+                        <label for="nome">Nome:</label>
+                        <input class="carac__input" type="text" id="nome">
+                        <span>
+                            <label for="radio-masculino">
+                            <input type="radio" name="genero" value="masculino" id="radio-masculino" checked>Masculino</label>
+                            <label for="radio-feminino">
+                            <input type="radio" name="genero" value="feminino" id="radio-feminino" checked>Feminino</label>
+                        </span>
+                        <br>
+                        <label for="level">Level:</label>
+                        <input class="carac__input" type="text" id="level">
+                        <label for="idade">Idade:</label>
+                        <input class="carac__input"type="text" id="idade">
+                        <label for="altura">Altura:</label>
+                        <input class="carac__input"type="text" id="altura">
+                        <label for="peso">Peso:</label>
+                        <input class="carac__input"type="text" id="peso">
+                    </form>
+                </div>
+
+                <div class="card-personagem">
+                    <h2 class="login__title">Raça</h2>
+                        <select class="carac__input id="raca">
+                            <option value="Gerudo">Gerudo</option>
+                            <option value="Goron">Goron</option>
+                            <option value="Hylian">Hylian</option>
+                            <option value="Rito">Rito</option>
+                            <option value="Zora">Zora</option>
+                        </select>
+
+                        <img src="../img/raca.png" alt="Personagem">
+
+                        <div class="carac__raca">
+                            <h3>Hylians</h3>
+                            Os Hylians, também conhecidos como o povo Hylia, são criaturas humanóides que adoram a deusa Hylia, 
+                            da qual seu nome deriva e por quem foram criados. Os Hylians são a raça original de Hyrule.
+                        </div>
+                </div>
+
+                <div class="card-personagem">
+                    <h2 class="login__title">Habilidades</h2>
+                    <form>
+                        <label for="forca">Força</label>
+                        <input class="caract__input" type="range" id="forca" min="0" max="100">
+                        <label for="stamina">Stamina</label>
+                        <input class="caract__input" type="range" id="stamina" min="0" max="100">
+                        <label for="destreza">Destreza</label>
+                        <input class="caract__input" type="range" id="destreza" min="0" max="100">
+                        <label for="inteligencia">Inteligência</label>
+                        <input class="caract__input" type="range" id="inteligencia" min="0" max="100">
+                        <label for="magia">Magia</label>
+                        <input class="caract__input" type="range" id="magia" min="0" max="100">
+                        <label for="carisma">Carisma</label>
+                        <input class="caract__input"type="range" id="carisma" min="0" max="100">
+                    </form>
+                </div>
+            </section>
+            
+        <div class="buttoneditar">
+            <span><button class="cad__submit">Salvar</button></span>
+        </div>
+        
+        <footer class="footer">
+    		Copyright &copy; 2021 | My RPG | Criado por ...
+    	</footer>
+    </body>
+</html>

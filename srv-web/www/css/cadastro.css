@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500;600&display=swap");
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-personagem {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+  max-width: 250px;
+  max-height: 450px;
+  width: 300px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  margin: 15px;
+  box-shadow: 1px 1px 5px 1px #356b76;
+}
+
+.login__title {
+  margin-bottom: 28px;
+  color: #ffffff;
+  font-family: "Bitter", serif;
+  text-align: center;
+}
+
+.carac__input {
+  font-family: "Bitter", serif;
+  margin-bottom: 10px;
+  height: 28px;
+  width: 100%;
+  box-sizing: border-box;
+  border: unset;
+  outline: none;
+  border-radius: 4px;
+}
+
+.carac__raca {
+  font-size: 12px;
+  text-align: center;
+}
+
+.caract__input {
+  font-family: "Bitter", serif;
+  margin-bottom: 3px;
+  height: 28px;
+  width: 100%;
+  border: unset;
+  outline: none;
+  border-radius: 4px;
+}
+
+.cad__submit {
+  display: block;
+  align-items: center;
+  margin: 15px auto;
+  font-family: bitter;
+  font-weight: 500;
+  height: 48px;
+  width: 150px;
+  outline: none;
+  background-color: #356b76;
+  color: #ffffff;
+  font-size: 18px;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
+}

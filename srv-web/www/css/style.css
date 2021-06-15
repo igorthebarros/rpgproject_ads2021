@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500;600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  background-color: #cfcfcf;
+}
+
+nav {
+  padding: 15px 15px;
+  font-family: "Bitter", serif;
+  background: #356B76;
+  color: #ffffff;
+  height: 80px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-lista {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  color: #479aaa;
+}
+
+.image {
+  /** Imagem inicial **/
+  width: 100%;
+  background-color: #356B76;
+}
+
+.escudo {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.title-rpg {
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 4em;
+  color: #356B76;
+  margin: 0 0%;
+  padding: 20px;
+}
+
+.informacao-rpg {
+  padding: 15px;
+}
+
+.descricao-rpg {
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  color: #356B76;
+  font-size: 1.1em;
+  text-align: center;
+  margin: 20px;
+  line-height: 1.5em;
+}
+
+.footer {
+  /**Rodape**/
+  color: #ffffff;
+  text-align: center;
+  background: #356B76;
+  padding: 20px;
+  font-family: "Bitter", serif;
+  font-weight: 300;
+}
+
+@media (max-width: 400px) {
+  nav {
+    font-family: "Bitter", serif;
+    background: #356B76;
+    color: #ffffff;
+    padding: 10px 10px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav ul li {
+    list-style: none;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  nav ul li a:hover {
+    color: #006458;
+  }
+
+  nav ul.menu {
+    top: 75px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: right;
+  }
+}
