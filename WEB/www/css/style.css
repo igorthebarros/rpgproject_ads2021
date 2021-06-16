@@ -30,6 +30,18 @@ nav {
   text-decoration: none;
 }
 
+nav {
+  padding: 15px 15px;
+  font-family: "Bitter", serif;
+  background: #356b76;
+  color: #ffffff;
+  height: 80px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
 nav ul li {
   list-style: none;
 }
@@ -41,6 +53,14 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #479aaa;
+}
+
+nav ul.menu {
+  top: 75px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: right;
 }
 
 .image {
@@ -71,21 +91,23 @@ nav ul li a:hover {
 .descricao-rpg {
   font-family: "Bitter", serif;
   font-weight: 400;
-  color: #356B76;
+  color: #ffffff;
   font-size: 1.1em;
   text-align: center;
   margin: 20px;
   line-height: 1.5em;
 }
 
-.footer {
+footer {
   /**Rodape**/
   color: #ffffff;
   text-align: center;
-  background: #356B76;
+  background: #356b76;
   padding: 20px;
   font-family: "Bitter", serif;
   font-weight: 300;
+  bottom: 0;
+  width: 100%;
 }
 
 @media (max-width: 400px) {

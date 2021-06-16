@@ -51,5 +51,23 @@
             "charisma": 40,
             "image": "rito.png"
         }
-    ]
+    ],
+
+    "singleCharacter": {
+        "id": 1,
+        "name": "Link",
+        "race": "Hylian",
+        "gender": "male",
+        "level": 27,
+        "age": 17,
+        "altura": 1.70,
+        "peso": 70,
+        "strength": 50,
+        "stamina": 50,
+        "dexterity": 50,
+        "intelligence": 50,
+        "magic": 50,
+        "charisma": 50,
+        "image":  "link.png"
+    }
 }
