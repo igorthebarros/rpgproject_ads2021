@@ -8,11 +8,11 @@
 
 body {
   background-color: #cfcfcf;
+  font-family: "Bitter", serif;
 }
 
 nav {
   padding: 15px 15px;
-  font-family: "Bitter", serif;
   background: #356B76;
   color: #ffffff;
   height: 80px;
