@@ -27,7 +27,7 @@ function createCharacterCard(character){
         .addClassCustom('card-id')
         .addTextCustom(character.id);
     const img = createElementCustom('img');
-    img.src = "./img/" + character.image;
+    img.src = "./images/" + character.image;
     const divContent = createElementCustom('div')
         .addClassCustom('card-conteudo');
     const spanName = createElementCustom('span')
