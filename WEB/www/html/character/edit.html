@@ -1,12 +1,14 @@
 <div>
-    <h1>Cadastre seu personagem</h1>
+    <h1>Edite seu personagem</h1>
 </div>
 <section class="register">		 
-    <div class="card-personagem">
+    <!-- <div class="card-personagem">
         <h2 class="login__title">Características</h2>
-        <form>
+        <form name="caracteristicas" id="character">
+            <label for="id">Id:</label>
+            <input class="carac__input" type="text" id="id" name="id">
             <label for="nome">Nome:</label>
-            <input class="carac__input" type="text" id="nome">
+            <input class="carac__input" type="text" id="nome" name="name">
             <span>
                 <label for="radio-masculino">
                 <input type="radio" name="genero" value="masculino" id="radio-masculino" checked>Masculino</label>
@@ -15,51 +17,36 @@
             </span>
             <br>
             <label for="level">Level:</label>
-            <input class="carac__input" type="text" id="level">
+            <input class="carac__input" type="text" id="level" name="level">
             <label for="idade">Idade:</label>
-            <input class="carac__input"type="text" id="idade">
+            <input class="carac__input"type="text" id="idade" name="age">
             <label for="altura">Altura:</label>
-            <input class="carac__input"type="text" id="altura">
+            <input class="carac__input"type="text" id="altura" name="altura">
             <label for="peso">Peso:</label>
-            <input class="carac__input"type="text" id="peso">
+            <input class="carac__input"type="text" id="peso" name="peso">
         </form>
-    </div>
-
-    <div class="card-personagem">
-        <h2 class="login__title">Raça</h2>
-            <select class="carac__input id="raca">
-                <option value="Gerudo">Gerudo</option>
-                <option value="Goron">Goron</option>
-                <option value="Hylian">Hylian</option>
-                <option value="Rito">Rito</option>
-                <option value="Zora">Zora</option>
-            </select>
-
-            <img src="../imagens/characters/raca.png" alt="Personagem">
-
-            <div class="carac__raca">
-                <h3>Hylians</h3>
-                Os Hylians, também conhecidos como o povo Hylia, são criaturas humanóides que adoram a deusa Hylia, 
-                da qual seu nome deriva e por quem foram criados. Os Hylians são a raça original de Hyrule.
-            </div>
     </div>
 
     <div class="card-personagem">
         <h2 class="login__title">Habilidades</h2>
-        <form>
+        <form name="habilidades">
             <label for="forca">Força</label>
-            <input class="caract__input" type="range" id="forca" min="0" max="100">
+            <input class="caract__input" type="text" id="forca" name="strength">
             <label for="stamina">Stamina</label>
-            <input class="caract__input" type="range" id="stamina" min="0" max="100">
+            <input class="caract__input" type="text" id="stamina" name="stamina">
             <label for="destreza">Destreza</label>
-            <input class="caract__input" type="range" id="destreza" min="0" max="100">
+            <input class="caract__input" type="text" id="destreza" name="dexterity">
             <label for="inteligencia">Inteligência</label>
-            <input class="caract__input" type="range" id="inteligencia" min="0" max="100">
+            <input class="caract__input" type="text" id="inteligencia" name="intelligence">
             <label for="magia">Magia</label>
-            <input class="caract__input" type="range" id="magia" min="0" max="100">
+            <input class="caract__input" type="text" id="magia" name="magic">
             <label for="carisma">Carisma</label>
-            <input class="caract__input"type="range" id="carisma" min="0" max="100">
+            <input class="caract__input"type="text" id="carisma" name="charisma">
         </form>
     </div>
+    <input type="button" value="Salvar" id="btnSalvar">
+    <input type="button" value="Cancelar" id="btnCancelar"> -->
 </section>
-    <button class="cad__submit">Cadastrar</button> 
+    
+    
+    

@@ -50,6 +50,23 @@
             "magic": 60,
             "charisma": 40,
             "image": "rito.png"
-        }
+        },
+        {
+            "id": 2,
+            "name": "Urbosa",
+            "race": "Gerudo",
+            "gender": "female",
+            "level": 48,
+            "age": 24,
+            "altura": 1.80,
+            "peso": 75,
+            "strength": 80,
+            "stamina": 90,
+            "dexterity": 75,
+            "intelligence": 70,
+            "magic": 40,
+            "charisma": 65,
+            "image": "gerudo.png"
+          }
     ]
 }
