@@ -51,5 +51,32 @@
             "charisma": 40,
             "image": "rito.png"
         }
+    ],
+
+    "races": [
+        {
+            "id": 1,
+            "raceName": "Hylian",
+            "raceDescription": "Os Hylians, também conhecidos como o povo Hylia, são criaturas humanóides que adoram a deusa Hylia, da qual seu nome deriva e por quem foram criados. Os Hylians são a raça original de Hyrule.",
+            "image": "link.png"
+        },
+        {
+            "id": 2,
+            "raceName": "Gerudo",
+            "raceDescription": "Os Hylians, também conhecidos como o povo Hylia, são criaturas humanóides que adoram a deusa Hylia, da qual seu nome deriva e por quem foram criados. Os Hylians são a raça original de Hyrule.",
+            "image": "gerudo.png"
+        },
+        {
+            "id": 3,
+            "raceName": "Rito",
+            "raceDescription": "Os Hylians, também conhecidos como o povo Hylia, são criaturas humanóides que adoram a deusa Hylia, da qual seu nome deriva e por quem foram criados. Os Hylians são a raça original de Hyrule.",
+            "image": "rito.png"
+        },
+        {
+            "id": 4,
+            "raceName": "Zora",
+            "raceDescription": "Os Hylians, também conhecidos como o povo Hylia, são criaturas humanóides que adoram a deusa Hylia, da qual seu nome deriva e por quem foram criados. Os Hylians são a raça original de Hyrule.",
+            "image": "zora.png"
+        }
     ]
 }

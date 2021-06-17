@@ -7,12 +7,20 @@ export {
 }
 
 async function renderRegister() {
-    await renderHtml('register', 'main');
-    fetch('http://localhost:3001/register')
+    await renderHtml('character/register', 'main');
+    const form = docuemnt.forms.formCharacters;
+
+    fetch('http://localhost:3000/races')
     .then(res => res.json())
-    // .then(response => response.json())
-    // .then(json => {
-    //     json.
-    // });
+    .then(races => {
+        const selectRace = document.querySelector("#raca");
+        races.forEach(race => {
+            const option = document.createElement('option');
+            option.value = parseInt(race.id);
+            option.innerHTML = race.raceName;
+            // option.innerHTML = race.raceDescription;
+            selectRace.appendChild(option);
+        });
+    });
 };
 
